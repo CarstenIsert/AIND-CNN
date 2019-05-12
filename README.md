@@ -10,13 +10,4 @@ You can either use the code from there or  clone this repository with the soluti
 		cd AIND-CNN
 	```
 
-2. Obtain the necessary Python packages, and switch Keras backend to Tensorflow.  	
-
-	For __Mac/OSX__:
-	```
-		conda env create -f requirements/aind-dog-mac.yml
-		source activate aind-dog
-		KERAS_BACKEND=tensorflow python -c "from keras import backend"
-	```
-
-3. Enjoy!
+2. Due to security issues raised by GitHub with the older versions of tools used for this code, the dependencies have been removed. 
